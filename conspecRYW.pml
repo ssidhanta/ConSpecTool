@@ -14,15 +14,15 @@ typedef Ser {
 		Op st[4];
 		mtype status;
 }
-Op st[4];
-Ser ser[2];
+Op st[3];
+Ser ser[3];
 chan STDIN;
-bool check, flagsercheck, rywviol; 
+bool check = false, flagsercheck = false, rywviol = false; 
 /*int wic , rjc , wis , rjs , k , kk ;
 ltl c { wic -> <> rjc };
 ltl s { wis -> <> rjs };
 ltl ryw { wic -> <> rjc -> wis -> <> rjs };*/
-ltl ryw {  [] ( rywviol == true)  };
+ltl ryw {  [] ( !rywviol)  };
 bool flagst, flagser;
 
 proctype checkltl(int size, sersize){
@@ -195,8 +195,7 @@ proctype checkcond(int size, sersize){
 }
 
 proctype checkser(int size, sersize, wicparam, rjcparam){
-	int wis = 9999, rjs = 9999, k , kk ;
-	bool writeFlag, readFlag = false;
+	int wis = 9999, rjs = 9999, k = 0, kk = 9999;
 	int counter = 0;
 	int ii = 0, j = 0;
 	do
@@ -249,12 +248,12 @@ proctype checkser(int size, sersize, wicparam, rjcparam){
 				:: (j == kk || j < sersize-1) -> 
 					flagsercheck = true;
 				:: (j != kk && j >= sersize-1) -> 
-					rywviol = false;
+					rywviol = true;
 					flagsercheck = false;
 				else ->
 				{
 					flagsercheck = false; 
-					rywviol = false;
+					rywviol = true;
 				}
 				fi
 				kk = j;
@@ -278,7 +277,7 @@ proctype checkser(int size, sersize, wicparam, rjcparam){
 }
 
 init {	
-	int size = 4;
+	int size = 3;
 	st[0].optype = w;
 	st[0].var = x;
 	st[0].val = 1;
@@ -288,11 +287,38 @@ init {
 	st[2].optype = r;
 	st[2].var = x;
 	st[2].val = 1;
-	st[3].optype = r;
-	st[3].var = x;
-	st[3].val = 2;
+	
+	ser[0].st[0].optype = w;
+	ser[0].st[0].var = x;
+	ser[0].st[0].val = 1;
+	ser[0].st[1].optype = w;
+	ser[0].st[1].var = x;
+	ser[0].st[1].val = 2;
+	ser[0].st[2].optype = r;
+	ser[0].st[2].var = x;
+	ser[0].st[2].val = 1;
+	
+	ser[1].st[0].optype = w;
+	ser[1].st[0].var = x;
+	ser[1].st[0].val = 1;
+	ser[1].st[1].optype = r;
+	ser[1].st[1].var = x;
+	ser[1].st[1].val = 1;
+	ser[1].st[2].optype = w;
+	ser[1].st[2].var = x;
+	ser[1].st[2].val = 2;
+	
+	ser[2].st[0].optype = w;
+	ser[2].st[0].var = x;
+	ser[2].st[0].val = 2;
+	ser[2].st[1].optype = r;
+	ser[2].st[1].var = x;
+	ser[2].st[1].val = 1;
+	ser[2].st[2].optype = w;
+	ser[2].st[2].var = x;
+	ser[2].st[2].val = 1;
 		
-	/*bool inword = false;*/
+	/*bool inword = false;
 	int i = 0, j = 0;
        do
        :: STDIN?c ->
@@ -309,29 +335,24 @@ init {
                           j++
 		  :: c == 'w' ->
 			  ser[i].st[j].optype = w;
-			  /*nw++*/
 		   :: c == 'r' ->
 			  ser[i].st[j].optype = r;
-			  /*nw++*/
 		  :: c == 'x' ->
 			  ser[i].st[j].var = x;
-			  /*nw++*/
 		  :: c == 'y' ->
 			  ser[i].st[j].var = y;
-			  /*nw++*/
 		  :: c == ',' ->
                           
 		  :: c == '1' && c != 'w' && c != 'r' && c != 'x' ->
                           ser[i].st[j].val = 1;
 		  :: c == '2' && c != 'w' && c != 'r' && c != 'x' ->
                           ser[i].st[j].val = 2;
-			  /*nw++*/
 		  :: else ->
                   
                   fi; 
-         od;
-	check = false; flagsercheck = false; rywviol = true; 
+         od;*/
+	check = false; flagsercheck = false; rywviol = false; 
 	/*run checkltl(size, i)*/
-	run checkcond(size, i)
+	run checkcond(size, 3)
 	
 }	
