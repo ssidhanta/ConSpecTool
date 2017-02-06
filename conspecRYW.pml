@@ -115,7 +115,9 @@ proctype checkcond(int size, sersize){
 					rjs = 9999;
 					wis = 9999;
 					flagsercheck = false; 
+					atomic {
 					run checkser(size, sersize, wic, rjc);
+					}
 					i++ ;
 					  
 				:: (k != 9999 && wic != 9999 && st[i].optype == r && l>=i) -> 	
@@ -124,7 +126,9 @@ proctype checkcond(int size, sersize){
 					rjs = 9999;
 					wis = 9999;
 					flagsercheck = false; 
+					atomic {
 					run checkser(size, sersize, wic, rjc);
+					}
 					/*printf("flagsercheck7 true res =%d %d\n", nw, m);*/ printf("check wr pair in st res =%d %d\n", wic, rjc);  l = i;  wic = 9999;
 					rjc = 9999;
 					if
@@ -163,7 +167,9 @@ proctype checkcond(int size, sersize){
 					rjs = 9999;
 					wis = 9999;
 					flagsercheck = false; 
+					atomic {
 					run checkser(size, sersize, wic, rjc);
+					}
 					wic = 9999;
 					rjc = 9999;					check = false;  
 					if
