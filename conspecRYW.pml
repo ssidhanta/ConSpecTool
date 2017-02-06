@@ -17,12 +17,12 @@ typedef Ser {
 Op st[4];
 Ser ser[2];
 chan STDIN;
-bool check = false, flagsercheck = false; 
+bool check, flagsercheck, rywviol; 
 /*int wic , rjc , wis , rjs , k , kk ;
 ltl c { wic -> <> rjc };
 ltl s { wis -> <> rjs };
 ltl ryw { wic -> <> rjc -> wis -> <> rjs };*/
-ltl ryw {  [] ( flagsercheck && check )  };
+ltl ryw {  [] ( rywviol == true)  };
 bool flagst, flagser;
 
 proctype checkltl(int size, sersize){
@@ -223,23 +223,47 @@ proctype checkser(int size, sersize, wicparam, rjcparam){
 				ii++
 			:: (ii < size && wis != 9999 &&  ser[j].st[ii].optype == r && ser[j].st[ii].val == rjcparam) -> 
 			{	rjs = ser[j].st[ii].val; 
-				if
+				/*if
 				:: (ii >= size && flagsercheck ==  true && j != kk) -> 
 					flagsercheck = true;
+					ii=size;j = sersize;
+					printf("flagsercheck 1 true res =%d %d\n", wis, rjs); 
 				:: (ii < size) -> 
+				{
 					flagsercheck = true;
+					ii=size; j = sersize;
+					printf("flagsercheck 2 true res =%d %d\n", kk, j); 
+				}
 				else ->
-					flagsercheck = false;
+				{
+					flagsercheck = true; j = sersize;
+					printf("flagsercheck 3 true res =%d %d\n", kk, j); 
+				}
 				fi
 				
-				/*wic = 9999;
-				rjc = 9999;*/
+				wic = 9999;
+				rjc = 9999;
+				printf("flagsercheck 0 true res =%d %d\n", j, kk); */
+
+				if
+				:: (j == kk || j < sersize-1) -> 
+					flagsercheck = true;
+				:: (j != kk && j >= sersize-1) -> 
+					rywviol = false;
+					flagsercheck = false;
+				else ->
+				{
+					flagsercheck = false; 
+					rywviol = false;
+				}
+				fi
 				kk = j;
-				flagsercheck = true;
-				printf("flagsercheck true res =%d %d\n", wis, rjs); 
+				
+				printf("flagsercheck 1 true res =%d %d\n", wis, rywviol); 
+
 				/*wis = 9999; rjs = 9999;*/
 				break;
-				ii=size;
+				
 			}
 			:: (ii < size && ser[j].st[ii].optype ==r && ser[j].st[ii].val != rjcparam) -> 
 			{
@@ -248,7 +272,7 @@ proctype checkser(int size, sersize, wicparam, rjcparam){
 			else -> 	
 			fi	
 		:: j >= sersize ->
-			/*wis = 9999; rjs = 9999;*/break
+			rywviol = false;/*wis = 9999; rjs = 9999;*/break
 	od
 	/*:: counter >	}*/
 }
@@ -263,10 +287,10 @@ init {
 	st[1].val = 2;
 	st[2].optype = r;
 	st[2].var = x;
-	st[2].val = 2;
+	st[2].val = 1;
 	st[3].optype = r;
 	st[3].var = x;
-	st[3].val = 1;
+	st[3].val = 2;
 		
 	/*bool inword = false;*/
 	int i = 0, j = 0;
@@ -306,6 +330,7 @@ init {
                   
                   fi; 
          od;
+	check = false; flagsercheck = false; rywviol = true; 
 	/*run checkltl(size, i)*/
 	run checkcond(size, i)
 	
