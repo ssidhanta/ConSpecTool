@@ -17,7 +17,8 @@ typedef Ser {
 Op st[5];
 Ser ser[2];
 chan STDIN;
-bool check = false, flagsercheck = false, mwviol = false; 
+bool check = false; /*, flagsercheck = false,*/ 
+bool mwviol = false; 
 /*int wic , wjc , wis , wjs , k , kk ;
 ltl c { wic -> <> wjc };
 ltl s { wis -> <> wjs };
@@ -26,6 +27,8 @@ ltl mw {  [] ( !mwviol)  };
 bool flagst, flagser;
 
 proctype checkser(int size, sersize){
+	chan flagch = [1] of { bool };
+	bool flagsercheck = false;
 	int wis = 9999, wjs = 9999, k = 0, kk = 9999;
 	int counter = 0;
 	
@@ -52,10 +55,10 @@ proctype checkser(int size, sersize){
 					wjs = ser[j].st[i].val; 
 					/*printf("check rr pair in st =%d %d\n",  wic, wjc); */
 					check = true; 
-					flagsercheck = false; 
 					atomic {
-					run checkcond(size, wis, wjs);
+					run checkcond(size, wis, wjs, flagch);
 					}
+					flagch?flagsercheck;
 					wis = 9999;
 					wjs = 9999;
 					i++ ;
@@ -65,10 +68,10 @@ proctype checkser(int size, sersize){
 					check = true;
 		                        /*printf("check rr pair 1 in st =%d %d\n",  wic, wjc);*/ 
                                         
-					flagsercheck = false; 
 					atomic {
-					run checkcond(size, wis, wjs);
+					run checkcond(size, wis, wjs, flagch);
 					}
+					flagch?flagsercheck;
 					/*printf("flagsercheck7 true res =%d %d\n", nw, m);*/ 
 					l = i;  wis = 9999;
 					wjs = 9999;
@@ -107,10 +110,10 @@ proctype checkser(int size, sersize){
 					
 					
 					check = true;
-					flagsercheck = false; 
 					atomic {
-					run checkcond(size, wis, wjs);
+					run checkcond(size, wis, wjs, flagch);
 					}
+					flagch?flagsercheck;
 					wis = 9999;
 					wjs = 9999;					check = false;  
 					if
@@ -130,16 +133,12 @@ proctype checkser(int size, sersize){
 					i++
 				:: i >= size ->
 				{
+					i = 0; j++;
 					if
 					:: (flagsercheck == true) -> 
-						break
+						break; j = sersize;
 					:: (flagsercheck == false) -> 
-						flagsercheck = false; i = 0; j++;/*break*/
-					else ->
-						i = 0; 
-						break;
-						flagsercheck = false;
-						j++;
+						i = 0; j++; break
 					fi
 				}	
 				else -> 
@@ -147,16 +146,18 @@ proctype checkser(int size, sersize){
 		:: j >= sersize ->
 			if
 			:: (flagsercheck == false) -> 
-				mwviol = true; i = 0; j++;/*break*/
-			else ->
+				mwviol = true; break;
+			else -> 
+				break;
 			fi
-			break;
+			
 	od
 	/*:: counter >	}*/
 }
 
 
-proctype checkcond(int size, wisparam, wjsparam){
+proctype checkcond(int size, wisparam, wjsparam; chan flagch){
+	bool checkserflag = false;
 	int wic  = 9999, wjc  = 9999, wis = 9999, wjs = 9999, k = 9999, kk = 9999;
 	bool writeFlag, readFlag = false;
 	int i = 0, j = 0, l = -9999, m = -9999, nw = 0;	
@@ -185,7 +186,8 @@ proctype checkcond(int size, wisparam, wjsparam){
 			{	
 				wjc = ser[j].st[i].val;
 				printf("check ww pair in st =%d %d\n", wic, wjc);
-				flagsercheck = true; 
+				checkserflag = true; 
+				flagch! checkserflag;
 				break;
 				
 				
@@ -202,10 +204,11 @@ proctype checkcond(int size, wisparam, wjsparam){
 			fi	
 		
 		:: i >= size ->
-			 flagsercheck = false; break; 
+			 flagch! checkserflag;/*flagsercheck = false;*/ break; 
 	od
 
 }
+
 
 init {	
 	int size = 5;
@@ -290,7 +293,8 @@ init {
                   
                   fi; 
          od;*/
-	check = false; flagsercheck = false; mwviol = false; 
+	
+	check = false;  mwviol = false; 
 	/*run checkltl(size, i)*/
 	run checkser(size, 2)
 	
