@@ -18,12 +18,12 @@ Op st[5];
 Ser ser[2];
 chan STDIN;
 bool check = false; /*, flagsercheck = false,*/ 
-bool scviol = false; 
+bool ccviol = false; 
 /*int wic , wjc , wis , wjs , k , kk ;
 ltl c { wic -> <> wjc };
 ltl s { wis -> <> wjs };
 ltl ryw { wic -> <> wjc -> wis -> <> wjs };*/
-ltl sc {  [] ( !scviol)  };
+ltl cc {  [] ( !ccviol)  };
 bool flagst, flagser;
 
 proctype checkser(int size, sersize){
@@ -45,9 +45,10 @@ proctype checkser(int size, sersize){
 					}
 					flagch?flagsercheck;
 					
+					
 					i++;
 				:: flagsercheck == false && j == sersize-1 ->
-					scviol = true; printf("check is js pair scviol  in st 2 =%d %d\n",  flagsercheck, scviol); break;
+					ccviol = true; printf("check is js pair cviol  in st 2 =%d %d\n",  flagsercheck, ccviol); break;
 				:: (js != 9999 && flagsercheck == false) ->
 					j++; i=0;
 				:: (i < size-1 && k == 9999 && is == 9999) -> 	
@@ -64,8 +65,8 @@ proctype checkser(int size, sersize){
 					 
 					atomic {
 					i=0; j++;
-					flagsercheck = false;
-					flagch!flagsercheck;
+					/*flagsercheck = false;
+					flagch!flagsercheck;*/
 					k = 9999; is=9999; js = 9999;
 					printf("check is js 5555 pair flagsercheck  in st 1 =%d %d %d %d %d\n",  i, j, k, is, js);
 					}
@@ -76,7 +77,7 @@ proctype checkser(int size, sersize){
 		:: j >= sersize ->
 			if
 			:: (flagsercheck == false) -> 
-				scviol = true; break;
+				ccviol = true; break;
 			else -> 
 				break;
 			fi
@@ -144,10 +145,10 @@ init {
 	st[2].val = 2;
 	st[3].optype = r;
 	st[3].var = x;
-	st[3].val = 2;
+	st[3].val = 1;
 	st[4].optype = r;
 	st[4].var = x;
-	st[4].val = 1;
+	st[4].val = 2;
 	
 	ser[0].st[0].optype = w;
 	ser[0].st[0].var = x;
@@ -215,7 +216,7 @@ init {
                   fi; 
          od;*/
 	
-	check = false;  scviol = false; 
+	check = false;  ccviol = false; 
 	/*run checkltl(size, i)*/
 	run checkser(size, 2)
 	
