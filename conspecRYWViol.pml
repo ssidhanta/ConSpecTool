@@ -276,47 +276,7 @@ proctype checkser(int size, sersize, wicparam, rjcparam){
 	/*:: counter >	}*/
 }
 
-init {	
-	int size = 4;
-	st[0].optype = w;
-	st[0].var = x;
-	st[0].val = 1;
-	st[1].optype = w;
-	st[1].var = x;
-	st[1].val = 2;
-	st[2].optype = r;
-	st[2].var = x;
-	st[2].val = 2;
-	st[3].optype = r;
-	st[3].var = x;
-	st[3].val = 1;
-	
-	ser[0].st[0].optype = w;
-	ser[0].st[0].var = x;
-	ser[0].st[0].val = 1;
-	ser[0].st[1].optype = r;
-	ser[0].st[1].var = x;
-	ser[0].st[1].val = 1;
-	ser[0].st[2].optype = w;
-	ser[0].st[2].var = x;
-	ser[0].st[2].val = 2;
-	ser[0].st[3].optype = r;
-	ser[0].st[3].var = x;
-	ser[0].st[3].val = 2;
-	
-	ser[1].st[0].optype = w;
-	ser[1].st[0].var = x;
-	ser[1].st[0].val = 2;
-	ser[1].st[1].optype = r;
-	ser[1].st[1].var = x;
-	ser[1].st[1].val = 2;
-	ser[1].st[2].optype = w;
-	ser[1].st[2].var = x;
-	ser[1].st[2].val = 1;
-	ser[1].st[3].optype = r;
-	ser[1].st[3].var = x;
-	ser[1].st[3].val = 1;
-	
+init {
 
 	/*bool inword = false;
 	int i = 0, j = 0;

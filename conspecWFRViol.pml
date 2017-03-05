@@ -215,46 +215,7 @@ proctype checkcond(int size, risparam, wjsparam; chan flagch){
 
 }
 
-init {	
-	int size = 7;
-	st[0].optype = w;
-	st[0].var = x;
-	st[0].val = 1;
-	st[1].optype = r;
-	st[1].var = x;
-	st[1].val = 1;
-	st[3].optype = w;
-	st[3].var = x;
-	st[3].val = 2;
-	st[6].optype = r;
-	st[6].var = x;
-	st[6].val = 1;
-	
-	ser[0].st[0].optype = w;
-	ser[0].st[0].var = x;
-	ser[0].st[0].val = 2;
-	ser[0].st[3].optype = w;
-	ser[0].st[3].var = x;
-	ser[0].st[3].val = 1;
-	ser[0].st[4].optype = r;
-	ser[0].st[4].var = x;
-	ser[0].st[4].val = 1;
-	ser[0].st[5].optype = r;
-	ser[0].st[5].var = x;
-	ser[0].st[5].val = 1;
-	
-	ser[1].st[0].optype = w;
-	ser[1].st[0].var = x;
-	ser[1].st[0].val = 1;
-	ser[1].st[1].optype = r;
-	ser[1].st[1].var = x;
-	ser[1].st[1].val = 1;
-	ser[1].st[2].optype = r;
-	ser[1].st[2].var = x;
-	ser[1].st[2].val = 1;
-	ser[1].st[4].optype = w;
-	ser[1].st[4].var = x;
-	ser[1].st[4].val = 2;
+init {
 		
 	/*bool inword = false;
 	int i = 0, j = 0;
