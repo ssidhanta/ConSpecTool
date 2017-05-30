@@ -29,7 +29,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 1 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -61,7 +61,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 2 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -93,7 +93,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 2 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -125,39 +125,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0.01 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 3 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -189,39 +157,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0.01 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 3 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -253,7 +189,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 4 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -285,7 +221,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 4 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -317,7 +253,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 5 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -349,7 +285,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 6 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -381,7 +317,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 7 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -413,7 +349,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 7 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -445,7 +381,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 8 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -477,7 +413,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 8 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -509,7 +445,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 9 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -541,423 +477,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 9 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -989,7 +509,39 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0.01 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 10 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 11 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1021,7 +573,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0.01 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 11 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1053,7 +605,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 12 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1085,7 +637,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 13 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1117,7 +669,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 13 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1149,7 +701,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 14 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1181,7 +733,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 14 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1213,7 +765,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 15 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1245,7 +797,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 16 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1277,7 +829,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 16 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1309,7 +861,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 17 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1341,7 +893,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 18 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1373,7 +925,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 18 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1405,7 +957,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 19 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1437,7 +989,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 19 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1469,167 +1021,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
+Time diff is: 20 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1661,7 +1053,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0.01 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 20 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -1693,679 +1085,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 0 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
-ltl cc: [] (! (ccviol))
-pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
-pan: wrote conspecCausalViol.pml.trail
-
-(Spin Version 6.4.6 -- 2 December 2016)
-Warning: Search not completed
-	+ Partial Order Reduction
-
-Full statespace search for:
-	never claim         	+ (cc)
-	assertion violations	+ (if within scope of claim)
-	acceptance   cycles 	+ (fairness disabled)
-	invalid end states	- (disabled by never claim)
-
-State-vector 267 byte, depth reached 21, errors: 1
-       11 states, stored
-        0 states, matched
-       11 transitions (= stored+matched)
-        1 atomic steps
-hash conflicts:         0 (resolved)
-
-Stats on memory usage (in Megabytes):
-    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
-    0.283	actual memory usage for states
-  128.000	memory used for hash table (-w24)
-    0.534	memory used for DFS stack (-m10000)
-  128.730	total actual memory usage
-
-
-
-pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 21 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -2397,7 +1117,7 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0.01 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 22 seconds
 ltl cc: [] (! (ccviol))
 pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
 pan: wrote conspecCausalViol.pml.trail
@@ -2429,4 +1149,1284 @@ Stats on memory usage (in Megabytes):
 
 
 pan: elapsed time 0 seconds
-0 minutes and 1 seconds execution time.
+Time diff is: 22 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 23 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 23 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 24 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 24 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 25 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 26 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 26 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 27 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 28 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 28 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 29 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 29 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 30 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 30 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 31 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 32 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 32 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 33 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 33 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 34 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 34 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 35 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 36 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 36 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 37 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 38 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds
+Time diff is: 38 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds
+Time diff is: 39 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds
+Time diff is: 40 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 40 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 41 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 42 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 42 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 43 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 44 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 44 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds
+Time diff is: 45 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 45 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 46 seconds
+ltl cc: [] (! (ccviol))
+pan:1: assertion violated  !( !( !(ccviol))) (at depth 21)
+pan: wrote conspecCausalViol.pml.trail
+
+(Spin Version 6.4.6 -- 2 December 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (cc)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 267 byte, depth reached 21, errors: 1
+       11 states, stored
+        0 states, matched
+       11 transitions (= stored+matched)
+        1 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.003	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.283	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+Time diff is: 47 seconds
