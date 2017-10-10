@@ -9,9 +9,20 @@ SpinPreProcess.jar            java jar to accept from user a given session trace
 
 HOW TO RUN ..........................................
 
+
+install spinroot
+---------------
+tar -zxvf spin647.tar.gz
+chmod 777 -R Spin
+cd Src
+make
+make install
+cd Spin/iSpin/
+./install.sh
+------------
 simply run the shell command:
-sh callConspecChecker.sh `Äú<model>`Äù
-Where `Äú<model>`Äù is the consistency model to be verified, such as RYW for read your write, MR for Monotonic read, etc.
+sh callConspecChecker.sh `‚Ç¨≈ì<model>`‚Ç¨¬ù
+Where `‚Ç¨≈ì<model>`‚Ç¨¬ù is the consistency model to be verified, such as RYW for read your write, MR for Monotonic read, etc.
 The given session trace is supplied as an argument within the shell command file as <1,w,x,1>,<2,w,x,2>,<3,r,x,1>,<4,r,x,2>,<5,r,x,1> is the input session trace
 <1,w,x,1> is a given operation, 1 is the index of operation, w is a write operation type, x is the variable, 2 is the value written by the write operation 
 The shell file calls the SpinPreProcess.jar with the session trace given as an input string in the shell file
