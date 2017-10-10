@@ -13,13 +13,23 @@ HOW TO RUN ..........................................
 install spinroot
 ---------------
 tar -zxvf spin647.tar.gz
+
 chmod 777 -R Spin
+
 cd Src
+
 make
+
 make install
+
 cd Spin/iSpin/
+
 ./install.sh
+
+ln -s $(which date) /bin/gdate
+ls $(which date) /bin/gdate
 ------------
+
 simply run the shell command:
 sh callConspecChecker.sh `€œ<model>`€
 Where `€œ<model>`€ is the consistency model to be verified, such as RYW for read your write, MR for Monotonic read, etc.
@@ -27,6 +37,7 @@ The given session trace is supplied as an argument within the shell command file
 <1,w,x,1> is a given operation, 1 is the index of operation, w is a write operation type, x is the variable, 2 is the value written by the write operation 
 The shell file calls the SpinPreProcess.jar with the session trace given as an input string in the shell file
 The shell file then runs the following commands:
+
 spin -a conspec*.pml
 
 gcc -o pan pan.c
