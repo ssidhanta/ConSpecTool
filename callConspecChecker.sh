@@ -1,17 +1,19 @@
 #java -jar SpinPreProcess.jar ”<1,w,x,1>,<2,w,x,2>,<3,r,x,2>,<4,r,x,1>" $1
 #SECONDS=0
-STARTTIME=$(($(gdate +%s%N)/1000000)) 
+STARTTIME=$((10#$(gdate +%s)/1000000))
+#STARTTIME=$(($(gdate +%s%N)/1000000))
 #STARTTIME=${STARTTIME%.*}
 #time a_command
 index=0
 size=5
 #index1=$(echo index | wc -l /Users/subhajitsidhanta/Downloads/Spin/training_data.arff)
-index=$(wc -l < /Users/subhajitsidhanta/Downloads/Spin/training_data.arff)
+index=$(wc -l < /Users/subhajitsidhanta/Dropbox/CodeBase\ Log\ ingestion/training_data.arff)
 index="$(expr $index / $size)"
 for i in `seq 0 $index`
 do
     #SECONDS=0
-    STARTTIME=$(($(gdate +%s%N)/1000000)) 
+    STARTTIME=$(($(gdate +%s)/1000000))
+    #STARTTIME=$(($(gdate +%s%N)/1000000))
     #STARTTIME=${STARTTIME%.*}
     java -jar SpinPreProcess.jar $1 $i $size
     spin -a conspec$1Viol.pml
