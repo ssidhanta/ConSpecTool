@@ -27,7 +27,9 @@ cd Spin/iSpin/
 ./install.sh
 
 ln -s $(which date) /bin/gdate
+
 ls $(which date) /bin/gdate
+
 ------------
 
 simply run the shell command:
