@@ -1,0 +1,27 @@
+FROM ubuntu:16.10
+RUN apt-get update
+RUN apt-get install -y openjdk-8-jdk
+RUN apt-get install -y openjdk-8-jre
+RUN update-alternatives --config java
+RUN update-alternatives --config javac
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install mysql-server mysql-client
+RUN DEBIAN_FRONTEND=noninteractive  apt-get -y install sudo
+RUN apt-get install unzip
+RUN sudo apt-get install -y maven
+COPY tpccStart.sh /var/lib/
+COPY tpccServerStart.sh /var/lib/
+COPY tpcc-master/database/create_tables.sql /var/lib/
+COPY tpcc-master/database/add_fkey_idx.sql /var/lib/
+COPY my.cnf /etc/
+COPY my.cnf /etc/mysql/
+COPY apache-maven-3.5.2-bin.tar.gz /var/lib/
+RUN export PATH=${PATH}:/usr/local/mysql/bin
+RUN mkdir /var/lib/output
+RUN echo "export PATH="$PATH:/usr/bin"" >> ~/.bashrc
+COPY tpcc-master.zip /var/lib/
+RUN unzip /var/lib/tpcc-master.zip -d /var/lib/tpcc-master
+#RUN cd /var/lib/tpcc-master
+WORKDIR /var/lib/tpcc-master
+RUN  mvn package assembly:single
+COPY tpcc-master/tpcc.properties /var/lib/tpcc-master/
+CMD /var/lib/tpccStart.sh && tail -f /dev/null

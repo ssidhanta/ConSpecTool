@@ -6,15 +6,16 @@ STARTTIME=$(($(gdate +%s%N)/1000000))
 index=0
 size=5
 #index1=$(echo index | wc -l /Users/subhajitsidhanta/Downloads/Spin/training_data.arff)
-index=$(wc -l < /Users/subhajitsidhanta/Downloads/Spin/training_data.arff)
+index=$(wc -l < $1) #/Users/subhajitsidhanta/Downloads/Spin/training_data.arff)
 index="$(expr $index / $size)"
 for i in `seq 0 $index`
 do
     #SECONDS=0
     STARTTIME=$(($(gdate +%s%N)/1000000)) 
     #STARTTIME=${STARTTIME%.*}
-    java -jar SpinPreProcess.jar $1 $i $size
-    spin -a conspec$1Viol.pml
+    java -jar SpinPreProcess.jar $1 $2 #$i $size
+    #spin -a conspec$2Viol.pml
+    spin -a burkhardt$2Viol.pml
     gcc -o pan pan.c
     ./pan -a
     #echo “****after spin run: $i”

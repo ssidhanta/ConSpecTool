@@ -3,7 +3,8 @@
  * to the specified ConSpec formula.
  */
 int c;
-mtype = { valid, invalid, blank, r, w, x, y };
+//mtype = { valid, invalid, blank, r, w, x, y, mmm, nnnn };
+mtype = { valid, invalid, blank, r, w, x, y, w_street_1,Kne6UexhDVK6,w_street_2,Fp7mtvJfxMNg,w_city,odOnfkHkuFM5FRBCAqA,w_st_ate,yk,w_zip,vQ0cQwO5s,w_name,iIfX,d_ytd,d_w_id,d_street_1,G2j8q6yixA9l2Sg6Cg,d_street_2,VezdD1jub1RkWBViM,d_city,sAVoD0SqHM,d_st_ate,yp,d_zip,jNxfsoInn,d_name,YxRnsUhmF,c_id,c_first,sSNor25U99fZNbBL,c_middle,E,c_last,ATIONPRICALLY,c_street_1,GHVhP4EaSal,c_street_2,B6Me0h9x5k0QEfqZzw,c_city,dutvz5k2rltiwKFvu,c_st_ate,Li,c_zip,L9MHJ8hvn,c_phone,c_credit,BC,c_credit_lim,c_discount,c_balance,c_since,c_data,GQiALrVZJqgV4r4nq85CogoNygY56ZYoY89IrCTt1oj8HQXhrh1s0y4fuKm1igSVWRODFpRJXjhdqulokocSLyjdTp2nymXoOiLIbUagkQQsKTlj0bOXdScVF96gzOcqOdK4nS1traflGoUZXOsSxXTGMfqCdqoxJCeBSXYfW1oP3D7ZVRUudg6EWk0oS1U08F54HEEjDm1IbHVmQ8uTGnAe7CuJHVZMKcYuDdv2vZR7Gz9DcfXcJH3lF6dTNcKwUzJK2nl3bkQefj1aBUPL0KPT4qU3nWh58QGzE7PRghKF };
 typedef Op {
 		mtype optype;
 		mtype var;
@@ -132,7 +133,7 @@ proctype checkcond(int size, isparam, itparam, jsparam, jtparam; chan flagch){
 
 
 init {
-		
+	int size = 4;		
 	/*bool inword = false;
 	int i = 0, j = 0;
        do
@@ -156,6 +157,86 @@ init {
 			  ser[i].st[j].var = x;
 		  :: c == 'y' ->
 			  ser[i].st[j].var = y;
+:: c == 'w_street_1' ->
+ser[i].st[j].optype = w_street_1;
+:: c == 'w_street_2' ->
+ser[i].st[j].optype = w_street_2;
+:: c == 'w_city' ->
+ser[i].st[j].optype = w_city;
+:: c == 'w_st_ate' ->
+ser[i].st[j].optype = w_st_ate;
+:: c == 'w_zip' ->
+ser[i].st[j].optype = w_zip;
+:: c == 'w_name' ->
+ser[i].st[j].optype = w_name;
+:: c == 'd_ytd' ->
+ser[i].st[j].optype = d_ytd;
+:: c == 'd_w_id' ->
+ser[i].st[j].optype = d_w_id;
+:: c == 'd_street_1' ->
+ser[i].st[j].optype = d_street_1;
+:: c == 'd_street_2' ->
+ser[i].st[j].optype = d_street_2;
+:: c == 'd_city' ->
+ser[i].st[j].optype = d_city;
+:: c == 'd_st_ate' ->
+ser[i].st[j].optype = d_st_ate;
+:: c == 'd_zip' ->
+ser[i].st[j].optype = d_zip;
+:: c == 'd_name' ->
+ser[i].st[j].optype = d_name;
+:: c == 'c_id' ->
+ser[i].st[j].optype = c_id;
+:: c == 'c_first' ->
+ser[i].st[j].optype = c_first;
+:: c == 'c_middle' ->
+ser[i].st[j].optype = c_middle;
+:: c == 'c_last' ->
+ser[i].st[j].optype = c_last;
+:: c == 'c_street_1' ->
+ser[i].st[j].optype = c_street_1;
+:: c == 'c_street_2' ->
+ser[i].st[j].optype = c_street_2;
+:: c == 'c_city' ->
+ser[i].st[j].optype = c_city;
+:: c == 'c_st_ate' ->
+ser[i].st[j].optype = c_st_ate;
+:: c == 'c_zip' ->
+ser[i].st[j].optype = c_zip;
+:: c == 'c_phone' ->
+ser[i].st[j].optype = c_phone;
+:: c == 'c_credit' ->
+ser[i].st[j].optype = c_credit;
+:: c == 'c_credit_lim' ->
+ser[i].st[j].optype = c_credit_lim;
+:: c == 'c_discount' ->
+ser[i].st[j].optype = c_discount;
+:: c == 'c_balance' ->
+ser[i].st[j].optype = c_balance;
+:: c == 'c_since' ->
+ser[i].st[j].optype = c_since;
+:: c == 'c_data' ->
+ser[i].st[j].optype = c_data;
+:: c == '2404.0' ->
+ser[i].st[j].optype = 2404.0;
+:: c == 'GQiALrVZJqgV4r4nq85CogoNygY56ZYoY89IrCTt1oj8HQXhrh1s0y4fuKm1igSVWRODFpRJXjhdqulokocSLyjdTp2nymXoOiLIbUagkQQsKTlj0bOXdScVF96gzOcqOdK4nS1traflGoUZXOsSxXTGMfqCdqoxJCeBSXYfW1oP3D7ZVRUudg6EWk0oS1U08F54HEEjDm1IbHVmQ8uTGnAe7CuJHVZMKcYuDdv2vZR7Gz9DcfXcJH3lF6dTNcKwUzJK2nl3bkQefj1aBUPL0KPT4qU3nWh58QGzE7PRghKF' ->
+ser[i].st[j].optype = GQiALrVZJqgV4r4nq85CogoNygY56ZYoY89IrCTt1oj8HQXhrh1s0y4fuKm1igSVWRODFpRJXjhdqulokocSLyjdTp2nymXoOiLIbUagkQQsKTlj0bOXdScVF96gzOcqOdK4nS1traflGoUZXOsSxXTGMfqCdqoxJCeBSXYfW1oP3D7ZVRUudg6EWk0oS1U08F54HEEjDm1IbHVmQ8uTGnAe7CuJHVZMKcYuDdv2vZR7Gz9DcfXcJH3lF6dTNcKwUzJK2nl3bkQefj1aBUPL0KPT4qU3nWh58QGzE7PRghKF;
+:: c == 'h_c_d_id' ->
+ser[i].st[j].optype = h_c_d_id;
+:: c == 'h_c_w_id' ->
+ser[i].st[j].optype = h_c_w_id;
+:: c == 'h_c_id' ->
+ser[i].st[j].optype = h_c_id;
+:: c == 'h_d_id' ->
+ser[i].st[j].optype = h_d_id;
+:: c == 'h_w_id' ->
+ser[i].st[j].optype = h_w_id;
+:: c == 'h_date' ->
+ser[i].st[j].optype = h_date;
+:: c == 'h_amount' ->
+ser[i].st[j].optype = h_amount;
+:: c == 'h_data' ->
+ser[i].st[j].optype = h_data;
 		  :: c == ',' ->
                           
 		  :: c == '1' && c != 'w' && c != 'r' && c != 'x' ->
