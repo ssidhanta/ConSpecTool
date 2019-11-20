@@ -1,13 +1,16 @@
 #java -jar SpinPreProcess.jar ”<1,w,x,1>,<2,w,x,2>,<3,r,x,2>,<4,r,x,1>" $1
 #SECONDS=0
 STARTTIME=$((10#$(date +%s)/1000000))
-#STARTTIME=$(($(gdate +%s%N)/1000000))
+#STARTTIME=$(($(date +%s%N)/1000000))
 #STARTTIME=${STARTTIME%.*}
 #time a_command
 index=0
-size=5
+size=50
 #index1=$(echo index | wc -l /Users/subhajitsidhanta/Downloads/Spin/training_data.arff)
-index=$(wc -l < $1) #/Users/subhajitsidhanta/Downloads/Spin/training_data.arff)
+file=$1$2
+echo $file
+echo "&*&*&*Aftee fuile pront **********"
+index=$(wc -l < $file) #/Users/subhajitsidhanta/Downloads/Spin/training_data.arff)
 index="$(expr $index / $size)"
 for i in `seq 0 $index`
 do
@@ -15,8 +18,8 @@ do
     STARTTIME=$(($(date +%s)/1000000))
     #STARTTIME=$(($(gdate +%s%N)/1000000))
     #STARTTIME=${STARTTIME%.*}
-    java -jar SpinPreProcess.jar $1 $2 #$i $size
-    spin -a conspec$2Viol.pml
+    java -jar SpinPreProcess.jar $file $3 $1 #$i $size
+    spin -a conspec$3Viol.pml
     #spin -a burkhardt$2Viol.pml
     gcc -o pan pan.c
     ./pan -a
