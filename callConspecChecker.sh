@@ -18,7 +18,7 @@ do
     STARTTIME=$(($(date +%s)/1000000))
     #STARTTIME=$(($(gdate +%s%N)/1000000))
     #STARTTIME=${STARTTIME%.*}
-    java -jar SpinPreProcess.jar $file $3 $1 #$i $size
+    #java -jar SpinPreProcess.jar $file $3 $1 #$i $size
     spin -a conspec$3Viol.pml
     #spin -a burkhardt$2Viol.pml
     gcc -o pan pan.c
